@@ -1,12 +1,14 @@
 using MoneyBase.Support.Infrastructure.Extensions;
 using Serilog;
 using MoneyBase.Support.Infrastructure.AgentHub;
+using MoneyBase.Support.Shared;
 
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
 
 
 #region Configure Serilog
@@ -24,6 +26,14 @@ builder.Host.UseSerilog();
 builder.Services.AddMoneyBaseServices(builder.Configuration)
                 .AddHostedServices();
 #endregion
+
+
+string chatAPIUrl = builder.Configuration["ApisUrl:ChatAPIUrl"];
+builder.Services.AddHttpClient<IGenericHttpClient, GenericHttpClient>(client =>
+{
+    client.BaseAddress = new Uri(chatAPIUrl);
+});
+
 
 // Add CORS (for frontend)
 builder.Services.AddCors(options =>

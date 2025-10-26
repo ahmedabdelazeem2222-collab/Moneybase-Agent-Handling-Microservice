@@ -13,3 +13,8 @@
 /MoneyBase.Support.Infrastructure/obj
 /MoneyBase.UnitTests/bin/Debug/net8.0
 /MoneyBase.UnitTests/obj
+/.vs/MoneyBase.Support.AgentHandler.APIs/DesignTimeBuild
+/.vs/ProjectEvaluation
+/.vs/MoneyBase.Support.AgentHandler.APIs/v17
+/MoneyBase.Support.Shared/bin/Debug/net8.0
+/MoneyBase.Support.Shared/obj

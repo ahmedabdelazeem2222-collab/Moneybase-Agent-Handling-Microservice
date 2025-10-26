@@ -142,7 +142,7 @@ namespace MoneyBase.Support.Infrastructure.HostedServices
         }
         
         /// <summary>
-        /// NotifyAgentViaSignalR (agent on front end)
+        /// Notify Agent Via SignalR (agent front end)
         /// </summary>
         /// <param name="message"></param>
         /// <returns></returns>
@@ -199,7 +199,5 @@ namespace MoneyBase.Support.Infrastructure.HostedServices
             _connection?.Dispose();
             base.Dispose();
         }
-
-        
     }
 }

@@ -20,6 +20,7 @@
   <ItemGroup>
     <ProjectReference Include="..\MoneyBase.Support.Application\MoneyBase.Support.Application.csproj" />
     <ProjectReference Include="..\MoneyBase.Support.Infrastructure\MoneyBase.Support.Infrastructure.csproj" />
+    <ProjectReference Include="..\MoneyBase.Support.Shared\MoneyBase.Support.Shared.csproj" />
   </ItemGroup>
 
   <ItemGroup>
