@@ -1,0 +1,15 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/MoneyBase.Support.AgentHandler.APIs/FileContentIndex
+/MoneyBase.Support.AgentHandler.APIs/bin/Debug/net8.0
+/MoneyBase.Support.AgentHandler.APIs/obj
+/MoneyBase.Support.Application/bin/Debug/net8.0
+/MoneyBase.Support.Application/obj
+/MoneyBase.Support.Domain/bin/Debug/net8.0
+/MoneyBase.Support.Domain/obj
+/MoneyBase.Support.Infrastructure/bin/Debug/net8.0
+/MoneyBase.Support.Infrastructure/obj
+/MoneyBase.UnitTests/bin/Debug/net8.0
+/MoneyBase.UnitTests/obj
